@@ -3,7 +3,7 @@
 if (!function_exists('connect')) {
     function connect()
     {
-        $host = 'localhost';
+        $host = 'db';
         $port = '5432';
         $dbname = 'api_companies';
         $user = 'admin';
